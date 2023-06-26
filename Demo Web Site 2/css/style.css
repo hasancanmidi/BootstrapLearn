@@ -1,0 +1,9 @@
+.cardPic{
+    height: 125px;
+    width: 125px;
+    border-radius: 100%;
+}
+.card-pic-box {
+    text-align: center;
+    margin-top: 1rem;
+}
