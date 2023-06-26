@@ -7,3 +7,11 @@
     text-align: center;
     margin-top: 1rem;
 }
+.post-description{
+    background-color: whitesmoke;
+    height: 250px;
+}
+.footer-row{
+    height: 200px;
+    padding: 20px;
+}
