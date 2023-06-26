@@ -1,34 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"/>
-    <title>Demo</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Demo</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand text-warning" href="#">DEMO</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Hakkımızda</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+          <a class="nav-link" href="#">Hakkımızda</a>
+          <a class="nav-link" href="#">İletişim</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://picsum.photos/id/88/1200/400" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/44/1200/400" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://picsum.photos/id/22/1200/400" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+
+  </div>
+  <div class="container mt-5"> <!-- container  - start -->
+    <div class="row"> <!--Row Start-->
+      <div class="col-sm-6"><!-- About us  - Start -->
+        <img class="w-100 img-thumbnail" src="https://picsum.photos/id/34/600/400" alt="">
+      </div>
+      <div class="col-sm-6">
+        <h2>Hakkımızda</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, odio?</p>
+        <p>Dolor, voluptatem! Velit, aliquam fuga cum architecto ea deserunt odio!</p>
+        <p>Possimus et error vero. Facere est molestias quasi dolorem numquam.</p>
+        <p>Repudiandae, hic exercitationem quasi neque sed dolor sint quos vel!</p>
+      </div>
+      <!-- About us  - End -->
+    </div> <!--Row end-->
+
+    <!-- products  - Start -->
+    <div class="row mt-5">
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="https://picsum.photos/id/31/400/300" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Urun 1</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">İncele</a>
           </div>
         </div>
-      </nav>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="https://picsum.photos/id/30/400/300" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Urun 2</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">İncele</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <img src="https://picsum.photos/id/31/400/300" class="card-img-top" alt="foto">
+          <div class="card-body">
+            <h5 class="card-title">Urun 3</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">İncele</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- products  - end -->
+    <!-- pictures  - start -->
+    <div class="row mt-5">
+      <div class="col-sm-12 text-center">
+        <h4>Resimler</h4>
+      </div>
+      <div class="col-sm mt-3">
+        <img src="https://picsum.photos/id/37/200/100" alt="" class="w-100 img-thumbnail">
+      </div>
+      <div class="col-sm mt-3">
+        <img src="https://picsum.photos/id/36/200/100" alt="" class="w-100 img-thumbnail">
+      </div>
+      <div class="col-sm mt-3">
+        <img src="https://picsum.photos/id/35/200/100" alt="" class="w-100 img-thumbnail">
+      </div>
+      <div class="col-sm mt-3">
+        <img src="https://picsum.photos/id/34/200/100" alt="" class="w-100 img-thumbnail">
+      </div>
+      <div class="col-sm mt-3">
+        <img src="https://picsum.photos/id/33/200/100" alt="" class="w-100 img-thumbnail">
+      </div>
+    </div>
+    <!-- pictures  - end -->
+  </div> <!-- container  - end -->
+  
+  <!-- footer  - start -->
+  <div class="bg-dark text-light">
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p style="margin-bottom: 0px;">© 2017–2021 Company, Hasan Can Midi. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
+  </div>
+  <!-- footer  - end -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
