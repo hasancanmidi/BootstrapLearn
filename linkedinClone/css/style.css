@@ -1,21 +1,35 @@
+.borderpp{
+  border: 2px solid white ;
+}
+
 .navbarbg {
   height: 55px;
   background-color: white;
 }
 
+div.sticky{
+  position: sticky;
+  top: 4rem; ;
+  overflow: visible;
+}
+
 input.searche {
-  height: 36px;
+  height: 35px;
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
+  margin-top: 5px;
 }
 
 input.searche::placeholder {
-  font-size: 14px;
+  font-size: 12px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
+  background-image: url(/assets/search-solid.svg);
+  background-position: left;
+  padding-left: 15px;
+  
 }
 
 .body {
@@ -28,6 +42,7 @@ input.searche::placeholder {
   color: gray;
   margin-top: 5px;
   font-weight: lighter;
+  
 }
 
 .menutext:hover {
@@ -47,6 +62,8 @@ button.mediatext:hover {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
   color: #5f5f5f;
+  margin-right: 12px;
+  border: 0;
 }
 
 i {
@@ -60,14 +77,16 @@ i:hover {
 input.content {
   border-radius: 40px;
   height: 45px;
+  
 }
 input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/bootstraplinkedinclone/assets/edit-regular.svg);
+  background-image: url(/assets/edit-regular.svg);
   background-repeat: no-repeat;
   background-size: auto;
+  padding-left: 30px;
 }
 
 div.card {
@@ -120,6 +139,7 @@ button.ref:hover {
   border-radius: 50%;
   width: 50px;
   height: 50px;
+  
 }
 .posttext {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
