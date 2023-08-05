@@ -7,43 +7,52 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <title>Starbucks</title>
 </head>
 
 <body>
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top px-5">
+            <div class="container-fluid">
+                <img src="https://cloud.githubusercontent.com/assets/7534680/4550374/e5a6a2f0-4e65-11e4-97ae-2a79508a809b.png" style="height: 9vh;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">STARBUCKS REWARDS</a>
+                        <a class="nav-link active" href="#">MENÜ</a>
+                        <a class="nav-link active" href="#">KAMPANYALAR</a>
+                        <a class="nav-link active">E-GİFT</a>
+                        <a class="nav-link active">KURUMSAL SATIŞ</a>
+                        <a class="nav-link active fw-bold"><i class="fa-solid fa-location-dot " style="color: #000000;"></i>   Mağazalarımız</a>
+                        <button type="button" class="btn btn-success rounded-pill">Alışverişe başla</button>
+                        <button type="button" class="btn btn-outline-dark rounded-pill">Giriş</button>
+                        <button type="button" class="btn btn-dark rounded-pill">Hemen Katıl</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
     <main class="container-fluid">
         <div class="row">
-            <aside class="col-sm-5 sticky-top"
-                style="height: calc(100vh - 55px); top: 57px; background-color: rgb(223, 240, 229);">
-                <div class="">Lorem, ipsum dolor.</div>
-                <div class="">Voluptatem, nulla eos?</div>
-                <div class="">Eaque, corporis aut?</div>
+            <aside class="col-sm-5 sticky-top d-flex flex-column justify-content-between"
+                style="height: calc(100vh - 70px); top: 84px; background-color: rgb(223, 240, 229);">
+                <video id="myVideo" autoplay loop muted
+                    src="https://d2eiylesx4iyph.cloudfront.net/files/8liimn1h4-web-leftside-rewards-TR-1150x1260px-1-1-SFE.mp4"
+                    class="w-100"></video>
+                <div class="mb-5 fw-bold fs-3 float-start ms-5">GÜNAYDIN ☀️</div>
             </aside>
             <!-- section.col-sm-7>article.card.mb-3*5>.card-body>h2>{article $}^p*3>lorem20 -->
             <section class="col-sm-7 p-4">
                 <article class="mb-3">
                     <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiZjEwY2FlZGItM2NjYy00ZmFjLTk2ZmUtYWVhZmM4Yjg5ZmM4IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                        class="w-100">
+                        class="w-100 rounded">
                 </article>
                 <article class="mb-3">
                     <div class="card-body ms-5">
@@ -59,10 +68,10 @@
                 </article>
                 <article class="mb-3">
                     <div class="card-body">
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-sm-6">
                                 <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiYmM0ZTRjZDYtOGEzYi00ZDdkLTkwZDAtMTk0Zjg3Zjg4YjA5IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                                    class="w-100">
+                                    class="w-100 rounded">
                             </div>
                             <div class="col-sm-6">
                                 <h4>Dilediğin Gibi Öde Yıldız Kazan! ⭐</h4>
@@ -79,11 +88,13 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiNGMzZWUxMTktNjA0Mi00NzIyLWIyODYtM2Q2YWM0MmIxYzJmIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                                    class="w-100">
+                                    class="w-100 rounded">
                             </div>
                             <div class="col-sm-6">
                                 <h4>Yaza renk katacak kupa ve termoslar seni bekliyor! 🥳</h4>
-                                <p>Yazına renk katacak kupa ve termos ailemizin yeni üyeleriyle tanışmaya hazır mısın? 🥳 Çok seveceğin yeni Starbucks® kupa ve termosları Hepsiburada’da seni bekliyor!</p>
+                                <p>Yazına renk katacak kupa ve termos ailemizin yeni üyeleriyle tanışmaya hazır mısın?
+                                    🥳 Çok seveceğin yeni Starbucks® kupa ve termosları Hepsiburada’da seni bekliyor!
+                                </p>
                                 <button type="button" class="btn btn-success rounded-pill">Hepsiburada</button>
                             </div>
                         </div>
@@ -95,7 +106,7 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiNWJjNjQ5YzktMGFlNS00ZWU4LWI2M2YtNTU0YWU0M2VjNzFkIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                                    class="w-100">
+                                    class="w-100 rounded">
                             </div>
                             <div class="col-sm-6">
                                 <p>Starbucks® Delivers ile siparişini ver, sen neredeysen kahven oraya gelsin!</p>
@@ -111,11 +122,12 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiMDg4YjliZmUtOTcxYy00MTE5LTg4YjAtOGY3MGRiZTQyMTgwIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                                    class="w-100">
+                                    class="w-100 rounded">
                             </div>
                             <div class="col-sm-6">
                                 <h4>Dilediğin Gibi Öde Yıldız Kazan! ⭐</h4>
-                                <p>Starbucks® Mobil Uygulaması’nın ayrıcalıklı dünyası ve güncel kampanyalardan haberdar ol.</p>
+                                <p>Starbucks® Mobil Uygulaması’nın ayrıcalıklı dünyası ve güncel kampanyalardan haberdar
+                                    ol.</p>
                                 <button type="button" class="btn btn-success rounded-pill">Hemen İncele</button>
                             </div>
                         </div>
@@ -128,11 +140,15 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiMTkyOTk2NDgtZTVhOS00NTk2LWE4ZDktNDQ2NjE5ZmE2NDg4IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                                    class="w-100">
+                                    class="w-100 rounded">
                             </div>
                             <div class="col-sm-6">
                                 <h4>Arabaya servis ile ara vermeden yolculuğuna lezzet kat!</h4>
-                                <p>Aracından inmeden Starbucks® Drive Thru mağazalarımızdan siparişini ver, ara vermeden yolculuğuna lezzet kat! 🚗 Şimdilik sınırlı mağazalarımızda: 📍Şekerpınar 📍Manavgat 📍Balıkesir O204 📍Ankara Vega Cadde Yeni Drive Thru lokasyonlarımız için starbucks.com.tr'yi ziyaret etmeyi ve bizi sosyal medya hesaplarımızdan takip etmeyi unutma!</p>
+                                <p>Aracından inmeden Starbucks® Drive Thru mağazalarımızdan siparişini ver, ara vermeden
+                                    yolculuğuna lezzet kat! 🚗 Şimdilik sınırlı mağazalarımızda: 📍Şekerpınar 📍Manavgat
+                                    📍Balıkesir O204 📍Ankara Vega Cadde Yeni Drive Thru lokasyonlarımız için
+                                    starbucks.com.tr'yi ziyaret etmeyi ve bizi sosyal medya hesaplarımızdan takip etmeyi
+                                    unutma!</p>
                             </div>
                         </div>
                     </div>
@@ -144,11 +160,13 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiZThkOGQ4MjItMWRjNS00MGQ3LTllMDgtYTI0YjYxY2NjYjMyIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
-                                    class="w-100">
+                                    class="w-100 rounded">
                             </div>
                             <div class="col-sm-6">
                                 <h4>Eşsiz bir deneyim seni bekliyor!</h4>
-                                <p>Egzotik bölgelerden nadir kahve çekirdeklerini özenle topladık ve Milano Roastry’de ustalıkla kavurduk. Her fincan kahve ayrı bir hikaye demek ve belki de bu hikayenin bir daha tekrarı yok!</p>
+                                <p>Egzotik bölgelerden nadir kahve çekirdeklerini özenle topladık ve Milano Roastry’de
+                                    ustalıkla kavurduk. Her fincan kahve ayrı bir hikaye demek ve belki de bu hikayenin
+                                    bir daha tekrarı yok!</p>
                                 <button type="button" class="btn btn-success rounded-pill">Detaylı Bilgi</button>
                             </div>
                         </div>
@@ -162,8 +180,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
