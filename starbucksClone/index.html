@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Starbucks</title>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <div class="row">
+            <aside class="col-sm-5 sticky-top"
+                style="height: calc(100vh - 55px); top: 57px; background-color: rgb(223, 240, 229);">
+                <div class="">Lorem, ipsum dolor.</div>
+                <div class="">Voluptatem, nulla eos?</div>
+                <div class="">Eaque, corporis aut?</div>
+            </aside>
+            <!-- section.col-sm-7>article.card.mb-3*5>.card-body>h2>{article $}^p*3>lorem20 -->
+            <section class="col-sm-7 p-4">
+                <article class="mb-3">
+                    <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiZjEwY2FlZGItM2NjYy00ZmFjLTk2ZmUtYWVhZmM4Yjg5ZmM4IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                        class="w-100">
+                </article>
+                <article class="mb-3">
+                    <div class="card-body ms-5">
+                        <p class="fw-bolder">Yaza özel yeni Frappuccino®'larımızla tanış! 🍓🍫🧇</p>
+                        <p>Yaz günlerinin yeni favorileri: ister çilekli, ister çikolatalı Waffle Cone Frappuccino®! 🌴
+                            Yaza özel iki yeni içeceğimiz ve tüm diğer Frappuccino®’larımızın tadını çıkarmak için
+                            mağazalarımıza gelebilir 🏃🏻‍♂️; Starbucks® Delivers ile dilediğin yere sipariş
+                            verebilirsin! 🛵</p>
+                        <button type="button" class="btn btn-success rounded-pill">GetirYemek</button>
+                        <button type="button" class="btn btn-outline-success rounded-pill">Yemeksepeti</button>
+
+                    </div>
+                </article>
+                <article class="mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiYmM0ZTRjZDYtOGEzYi00ZDdkLTkwZDAtMTk0Zjg3Zjg4YjA5IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                                    class="w-100">
+                            </div>
+                            <div class="col-sm-6">
+                                <h4>Dilediğin Gibi Öde Yıldız Kazan! ⭐</h4>
+                                <p>Starbucks® Mobil’de yeni dönem başladı! Ödemeni nakit, kredi kartı veya Starbucks®
+                                    Mobil ile yap, tüm harcamalarında yıldız kazan!</p>
+                                <button type="button" class="btn btn-success rounded-pill">Detaylı Bilgi</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiNGMzZWUxMTktNjA0Mi00NzIyLWIyODYtM2Q2YWM0MmIxYzJmIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                                    class="w-100">
+                            </div>
+                            <div class="col-sm-6">
+                                <h4>Yaza renk katacak kupa ve termoslar seni bekliyor! 🥳</h4>
+                                <p>Yazına renk katacak kupa ve termos ailemizin yeni üyeleriyle tanışmaya hazır mısın? 🥳 Çok seveceğin yeni Starbucks® kupa ve termosları Hepsiburada’da seni bekliyor!</p>
+                                <button type="button" class="btn btn-success rounded-pill">Hepsiburada</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiNWJjNjQ5YzktMGFlNS00ZWU4LWI2M2YtNTU0YWU0M2VjNzFkIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                                    class="w-100">
+                            </div>
+                            <div class="col-sm-6">
+                                <p>Starbucks® Delivers ile siparişini ver, sen neredeysen kahven oraya gelsin!</p>
+                                <button type="button" class="btn btn-success rounded-pill">GetirYemek</button>
+                                <button type="button" class="btn btn-outline-success rounded-pill">Yemeksepeti</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiMDg4YjliZmUtOTcxYy00MTE5LTg4YjAtOGY3MGRiZTQyMTgwIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                                    class="w-100">
+                            </div>
+                            <div class="col-sm-6">
+                                <h4>Dilediğin Gibi Öde Yıldız Kazan! ⭐</h4>
+                                <p>Starbucks® Mobil Uygulaması’nın ayrıcalıklı dünyası ve güncel kampanyalardan haberdar ol.</p>
+                                <button type="button" class="btn btn-success rounded-pill">Hemen İncele</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiMTkyOTk2NDgtZTVhOS00NTk2LWE4ZDktNDQ2NjE5ZmE2NDg4IiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                                    class="w-100">
+                            </div>
+                            <div class="col-sm-6">
+                                <h4>Arabaya servis ile ara vermeden yolculuğuna lezzet kat!</h4>
+                                <p>Aracından inmeden Starbucks® Drive Thru mağazalarımızdan siparişini ver, ara vermeden yolculuğuna lezzet kat! 🚗 Şimdilik sınırlı mağazalarımızda: 📍Şekerpınar 📍Manavgat 📍Balıkesir O204 📍Ankara Vega Cadde Yeni Drive Thru lokasyonlarımız için starbucks.com.tr'yi ziyaret etmeyi ve bizi sosyal medya hesaplarımızdan takip etmeyi unutma!</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="mb-3">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <img src="https://core.rtbs.io/user/action/cc1eec01745b4c0ba29d63b1fe7e6ccf/rbs.storage.get.GET_IMAGE?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZGVudGl0eSI6InJic19hbm9ueW1vdXNfdXNlciIsImFub255bW91cyI6dHJ1ZSwicHJvamVjdElkIjoiY2MxZWVjMDE3NDViNGMwYmEyOWQ2M2IxZmU3ZTZjY2YiLCJ1c2VySWQiOiJhbm9ueW1vdXNfNzJhNzQzNGY2ZTc5NGVjNThmYzhiMjA0OTZlYjJhYzIiLCJ0aW1lc3RhbXAiOjE2OTExOTM5ODYwMzAsImNsYWltcyI6e30sImlhdCI6MTY5MTE5Mzk4NiwiZXhwIjoxNjkxMTk0Mjg2LCJpc3MiOiJjb3JlLnJ0YnMuaW8ifQ.O513S_CHNGE6_8AD6r2K9Nd0yWhEVlYT6g7seSz9NNo&data=eyJpbWFnZUlkIjoiZThkOGQ4MjItMWRjNS00MGQ3LTllMDgtYTI0YjYxY2NjYjMyIiwiZml0IjoiY292ZXIifQ&culture=en-US&platform=WEB&"
+                                    class="w-100">
+                            </div>
+                            <div class="col-sm-6">
+                                <h4>Eşsiz bir deneyim seni bekliyor!</h4>
+                                <p>Egzotik bölgelerden nadir kahve çekirdeklerini özenle topladık ve Milano Roastry’de ustalıkla kavurduk. Her fincan kahve ayrı bir hikaye demek ve belki de bu hikayenin bir daha tekrarı yok!</p>
+                                <button type="button" class="btn btn-success rounded-pill">Detaylı Bilgi</button>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
