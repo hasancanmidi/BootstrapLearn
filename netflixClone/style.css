@@ -1,5 +1,6 @@
 body{
-    background-image: url(./images/background-image.jpg);
+    background-image: linear-gradient(#00000088,#0000007d) , url(./images/background-image.jpg);
+    /*background-image: url(./images/background-image.jpg);*/
     height: 100vh;
 }
 .login-top{
@@ -24,4 +25,7 @@ body{
 }
 .sign-up{
     text-decoration: none;
+}
+.sign-up:hover{
+    text-decoration: underline;
 }
