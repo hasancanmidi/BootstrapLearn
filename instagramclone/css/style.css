@@ -1,3 +1,8 @@
+@media (max-width: 576px){
+    article.side-bar{
+        display: none !important;
+    }
+}
 ::placeholder{
   background-image: url("../assets/search-solid.svg");
   background-repeat: no-repeat;
